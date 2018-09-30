@@ -1,0 +1,7 @@
+version: '3'
+services:
+        ipme:
+                image: 'ipme'
+                env_file:
+                        - ./private/env.env
+                network_mode: 'host'
